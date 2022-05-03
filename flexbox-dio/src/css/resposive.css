@@ -1,0 +1,67 @@
+@media (max-width: 992px){
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .menu h1{
+        display: none;
+       
+    }
+    header .menu{
+        align-items: center;
+    }
+    .presentation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    
+    #who-we-are{
+        flex-direction: column-reverse;
+    }
+
+    #who-we-are img{
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .service-list{
+        flex-direction: row;
+    }
+    .service-item img{  
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-plans{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .list-plans .plan-item{
+        max-width: 90%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #plans-container h2 {
+        text-align: center;
+    }
+}
+@media (max-width: 440px){
+    .presentation img{
+        display: none;
+    }
+    #plans-container h2 {
+        font-size: 32px;
+        text-align: center;
+        margin: 0 0 15px;
+    }
+
+
+}
